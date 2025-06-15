@@ -1,9 +1,56 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
 body
 {
 	font-family: sans-serif;
-	padding-top: 60px;
-	padding-right: 50px;
-	padding-left: 50px;
+}
+
+.main
+{
+	position: relative;
+	margin-top: 80px;
+	margin-left: 0;
+	width: 70%;
+	height: calc(100vh - 80px);
+	background-color: #a1a2a6;	
+}
+
+.main-body
+{
+	position: relative;
+	padding-top: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.main-section
+{
+	position: relative;
+	border-bottom: 2px solid #000000;
+}
+
+.page-title
+{
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.main-paragraph-text
+{
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	font-size: 25px;
+	text-align: center;
 }
 
 .navbar
@@ -11,12 +58,10 @@ body
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: #d2eeef;
+	background-color: #000000;
 	z-index: 100;
 	display: flex;
 	border-bottom: 2px solid #000000;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 
 .navbar-section
@@ -24,5 +69,66 @@ body
 	width: 25%;
 	text-align: center;
 	font-weight: bold;
-	padding: 5px;
+	padding: 20px;
+}
+
+.btn
+{
+	display: inline-block;
+	padding: 10px 150px;
+	background-color: #a1a2a6;
+	color: #000000;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+}
+
+.sidebar-right
+{
+	position: fixed;
+	width: 30%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding-top: 80px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-left: 2px solid #000000;
+	z-index: 99;
+	background-color: #a1a2a6;
+}
+
+.sidebar-right-body
+{
+	position: relative;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sidebar-right-section
+{
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: block;
+}
+
+.sidebar-right-pfp
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	object-fit: cover;
+	border: 2px solid #000000;
+}
+
+.sidebar-right-platform
+{
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
 }
