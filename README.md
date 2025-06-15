@@ -1,3 +1,3 @@
 # ZackBrincken
 
-Please navigate to https://ZackBrincken.github.io/ZackBrincken to see my landing page.
+Please navigate to https://ZackBrincken.github.io/ to see my landing page.
