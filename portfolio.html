@@ -4,21 +4,27 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-		<title>Portfolio</title>
+		<title>Projects</title>
 	</head>
 	
 	<body>
 
 		<div class="navbar">
+			<div class="navbar-content">
+				<div class="navbar-section">
+					<a href="index.html" class="nav-btn">Home</a>
+					<a href="about.html" class="nav-btn">About Me</a>
+					<a href="portfolio.html" class="nav-btn">Projects</a>
+				</div>
 
-			<div class="navbar-section"> <a href="index.html" class="btn">Home</a></div>
-			<div class="navbar-section"> <a href="about.html" class="btn">About Me</a></div>
-			<div class="navbar-section"> <a href="portfolio.html" class="btn">Portfolio</a></div>
-			<div class="navbar-section"> <a href="resume.html" class="btn">Resume</a></div>
-	
+				<a href="index.html"><img src="images/favicon.png" class="navbar-logo" alt="ZB logo"></a>
+			</div>
 		</div>
+
+		<div class="sidebar-left"></div>
 
 		<div class="sidebar-right">
 
@@ -26,7 +32,7 @@
 
 				<div class="sidebar-right-section">
 		
-					<img src="pfp.jpg" class="sidebar-right-pfp" alt="My profile picture">
+					<img src="images/pfp.jpg" class="sidebar-right-pfp" alt="My profile picture">
 				
 				</div>
 
@@ -38,16 +44,6 @@
 				</div>
 
 				<div class="sidebar-right-section">
-
-					<div class="sidebar-right-platform">
-						<i class="fas fa-envelope fa-2x"></i>
-						zackbrincken@gmail.com
-					</div>
-
-					<div class="sidebar-right-platform">
-						<i class="fas fa-phone fa-2x"></i>
-						(217)416-5519
-					</div>
 
 					<a href="https://github.com/ZackBrincken" target="_blank" class="sidebar-right-platform">
 						<i class="fab fa-github fa-2x"></i>
@@ -72,15 +68,23 @@
 
 				<div class="main-section">
 				
-					<div class="page-title">My Portfolio</div>
+					<div class="page-title">My Projects</div>
 
-					<div class="main-heading">FamousGuitars</div>
+					<ul>
 
-					<div class="main-paragraph-text">
-						FamousGuitars is a database driven website I designed for a final project in my CS234 Databases and Web Development course throughout Fall 2024 at SIUE. While this was, at it's core, a school project, I really enjoyed the process and learned some valuable lessons. For one, front-end web development is great, but I am really a back-end fan. Also, this project really taught me the dangers of scope creep as the deadline approached. The last month of this project was a real grind and I learned to keep the scope of my endeavors under control from then on.<br><br>
+						<div class="main-heading"><li>AI-Powered 💪 Job Matching System</li></div>
+						<div class="main-paragraph-text">
+							An AI powered project to find the best job for you.<br>
+							<a href="https://github.com/ZackBrincken/job-matching" target="_blank"><img src="images/Job_Matching_img.jpg" class="main-image" alt="Job-Matching GitHub Page"></a>
+						</div>
 
-						Check it out on my <a href="http://www.patience-is-a-virtue.org/" target="_blank">Github (Not finished... The site will never load...)</a>
-					</div>
+						<div class="main-heading"><li>FamousGuitars 🎸</li></div>
+						<div class="main-paragraph-text">
+							A database driven website full of guitar and guitarist information.<br>
+							<a href="https://github.com/ZackBrincken" target="_blank"><img src="images/FamousGuitars_img.jpg" class="main-image" alt="FamousGuitars GitHub Page"></a>
+						</div>
+
+					</ul>
 
 				</div>
 
